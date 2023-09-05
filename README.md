@@ -1,6 +1,6 @@
-# Logos blog template
+# Logos Blog Template
 
-The template repository for blogs using [logos-docusaurus-plugins](https://github.com/acid-info/logos-docusaurus-plugins)
+The template repository for blogs using [logos-docusaurus-plugins](https://github.com/acid-info/logos-docusaurus-plugins).
 
 
 ## Use cases
