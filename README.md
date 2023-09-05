@@ -3,7 +3,7 @@
 The template repository for blogs using [logos-docusaurus-plugins](https://github.com/acid-info/logos-docusaurus-plugins).
 
 
-## Use cases
+## Use Cases
 - [Vac Research log](https://vac.dev/rlog)
 
 
@@ -78,16 +78,38 @@ A list of authors can be defined in `/posts/authors.yml`.
 For additional customization options, please refer to the [Docusaurus Blog Plugin documentation](https://docusaurus.io/docs/blog).
 
 
-## Adding posts
+## Adding Posts
 
 To publish in the blog, create a `.md` or `mdx` file within the `posts` directory. You can use [Frontmatter](https://docusaurus.io/docs/markdown-features#front-matter) to add metadata to your markdown file.
 
 
-## Customization
+## Docusaurus Config
 
 You can find instructions for adding additional documentation sections, implementing localization, and managing versioning on the [Docusaurus](https://docusaurus.io/docs) website.
 
 > Please note that theme customization is somewhat restricted; for more detailed instructions on customizing your theme, visit the [Logos Docusaurus Theme](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/) repository.
+
+
+## Custom CSS
+
+By default, this template utilizes the CSS styles defined in the [logos-docusaurus-plugins](https://github.com/acid-info/logos-docusaurus-plugins/tree/main/packages/logos-docusaurus-theme/src/client/css) package. You have the option to define custom CSS in `src/css/custom.scss`.
+
+
+## How to Run a Static Build (Production Build)
+
+1. Generate static files for production:
+
+```bash
+$ yarn build
+```
+
+The static files will be created in the `build` directory.
+
+2. Serve the static build:
+
+```bash
+$ yarn serve
+```
 
 
 ## CI/CD
